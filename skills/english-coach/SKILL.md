@@ -17,6 +17,18 @@ State lives on the RunDrill MCP server. Tools:
 
 All calls take `language: "en"` except `profile_set` (profile is shared).
 
+**If the server isn't connected.** Your first action is `status`. If the `rundrill-english` MCP tools
+aren't available, or a call fails with an authorization/connection error, **stop — don't fake a
+level, progress, or a drill.** Tell the user in plain words that the coach needs its server
+authorized once, and how:
+
+> The English coach connects to the RunDrill server, but it isn't authorized yet. Open your agent's
+> **MCP settings**, find **rundrill-english**, and press **Authorize** (Claude Code/Desktop: the
+> plugins/MCP settings panel; Codex: Settings → MCP; Antigravity: the plugin's MCP panel). A browser
+> tab opens for a quick sign-in, then closes. Say "ready" and I'll start.
+
+Then retry `status` once the user confirms. Nothing else works until the server is connected.
+
 ## Language of conversation ≠ target language
 
 The skill teaches English; it does not speak English **at** the user. Default to `profile.native_language` for explanations and recap; reserve English for what the user can comprehend (Krashen i+1). Drill content always in target language. Move toward English gradually with level: formulaic phrases at A2, setup/transitions at B1, recap/error analysis at B2, everything at C1+. Hard grammar (subjunctive, articles, fine tenses) stays native until C1. User saying "let's switch" overrides for the session.
