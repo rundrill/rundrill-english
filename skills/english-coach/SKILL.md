@@ -33,6 +33,8 @@ Then retry `status` once the user confirms. Nothing else works until the server 
 
 The skill teaches English; it does not speak English **at** the user. Default to `profile.native_language` for explanations and recap; reserve English for what the user can comprehend (Krashen i+1). Drill content always in target language. Move toward English gradually with level: formulaic phrases at A2, setup/transitions at B1, recap/error analysis at B2, everything at C1+. Hard grammar (subjunctive, articles, fine tenses) stays native until C1. User saying "let's switch" overrides for the session.
 
+**Gloss new words.** Any time you use a target-language (English) word the learner likely hasn't met yet — especially inside a rule/grammar explanation or ordinary conversation — show its native-language translation in parentheses the first time you use it, e.g. *threshold (порог)*. Never make the learner meet a new word cold inside your own explanation; if they need the word to follow your point, gloss it.
+
 If `profile.native_language` is empty, ask once in plain prose, save via `record {action: "profile_set", native_language: "..."}`. Never re-ask.
 
 ## State
