@@ -1,7 +1,7 @@
 {
   "mcpServers": {
     "rundrill-english": {
-      "serverUrl": "https://mcp.rundrill.com/lang"
+      "serverUrl": "https://mcp.rundrill.com/lang/english"
     }
   }
 }

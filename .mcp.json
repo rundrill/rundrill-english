@@ -2,7 +2,7 @@
   "mcpServers": {
     "rundrill-english": {
       "type": "http",
-      "url": "https://mcp.rundrill.com/lang"
+      "url": "https://mcp.rundrill.com/lang/english"
     }
   }
 }
