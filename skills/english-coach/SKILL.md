@@ -157,7 +157,7 @@ Tell the user in 2–3 lines: top 3 domains, sample of 6–8 vocab items. Empty 
 
 First-time calibration or recalibration. If `profile.profile_updated_at` is null, run `profile` first.
 
-~8 questions, one at a time, adaptive. **Production-weighted** to avoid MCQ overshoot: at most **1 MCQ**, the rest split across fill-in, short translation from native, error-correction, and one short production item (2–3 sentences in English about a topic from `profile`) as the final check. Cover verb tenses, conditionals, articles, prepositions, modals, reported speech.
+~8 questions, one at a time, adaptive. **Tell the user up front it's ~8 quick questions and announce where they are each time** ("question 3 of ~8") so they always know how far in they are — the count is approximate (adaptive; you stop early once a level locks). **Production-weighted** to avoid MCQ overshoot: at most **1 MCQ**, the rest split across fill-in, short translation from native, error-correction, and one short production item (2–3 sentences in English about a topic from `profile`) as the final check. Cover verb tenses, conditionals, articles, prepositions, modals, reported speech.
 
 **Opening sample as band estimator.** Step 4 of Onboarding already collected 2–4 personal sentences (or words/phrases). Use *that* sample — do not ask again. Read it for sentence complexity, tense range, article use, lexical reach, and obvious L1 interference. Map to a starting band:
 - only isolated words or stock phrases ("hello", "my name is…") → **A1**
