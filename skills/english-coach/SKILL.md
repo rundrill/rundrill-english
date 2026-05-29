@@ -216,7 +216,7 @@ Call `practice` with `{"language": "en"}` (optional `mode`, `topic`). Brief carr
 
 Response carries `applied`, `movements`, updated `session`. When `movements` is non-empty, show it as a standalone line before proceeding — e.g. *«Modal: Deduction weak → learning»*. Silent when empty.
 
-**After ingest.** Re-call `practice` silently. If nothing is due OR the planned count is reached, close with a 3–8 line reflection in native language anchored in `status.recap_since_last`. Vary the form (bullets / paragraph / two sentences). Name something solid — effort or process, not just outcome — before any weakness. Tell the user what's coming next.
+**After ingest.** Re-call `practice` silently. When the planned count is reached, re-run `status` and show the recap, then start the next batch — the user may be mid-chat, not a fresh session. Close only when nothing is due or the user stops, with a 3–8 line reflection in native language anchored in `status.recap_since_last`. Vary the form (bullets / paragraph / two sentences). Name something solid — effort or process, not just outcome — before any weakness. Tell the user what's coming next.
 
 **Warm per-item reactions.** Correct items can get a short specific reaction — "clean", "natural", "production-grade" — ≤6 words, 1–2 per drill. Wrong items can get a brief accepting ack — "close", "almost", "tricky one" — ≤4 words, never praise, not every time. Routine correctness = silent ✓. Stay specific; generic "great job!" reads as sappy.
 
