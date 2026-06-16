@@ -25,15 +25,15 @@ closes it — no API key to paste.
 
 ## Install
 
-- **Claude Code / Desktop** — via the RunDrill marketplace:
+- **Claude Code / Desktop** — via the RunDrill languages marketplace:
   ```
-  /plugin marketplace add rundrill/rundrill
-  /plugin install rundrill-english@rundrill
+  /plugin marketplace add rundrill/rundrill-lang
+  /plugin install rundrill-english@rundrill-lang
   ```
   Then run `/english-coach`.
-- **OpenAI Codex** — add the RunDrill catalog, then install `rundrill-english` from the plugin directory:
+- **OpenAI Codex** — add the RunDrill languages catalog, then install `rundrill-english`:
   ```
-  codex plugin marketplace add rundrill/rundrill
+  codex plugin marketplace add rundrill/rundrill-lang
   ```
 - **Google Antigravity** — drop this folder into `~/.gemini/config/plugins/rundrill-english/` (global)
   or `<workspace>/.agents/plugins/rundrill-english/` (workspace-scoped).
